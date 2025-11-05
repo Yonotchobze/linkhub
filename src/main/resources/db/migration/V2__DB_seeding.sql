@@ -14,7 +14,6 @@ VALUES (
     'Développeur Full Stack | Java, Spring Boot, React & DevOps'
 );
 
--- 3. Ajouter des liens pour ce profil (en supposant que le profil a l'ID 1)
 INSERT INTO links (profile_id, title, url, sort_order)
 VALUES 
     (1, 'Mon LinkedIn', 'https://www.linkedin.com/in/younes-benbouchta', 0),
