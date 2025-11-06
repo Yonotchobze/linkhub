@@ -25,8 +25,7 @@ CREATE TABLE links (
     profile_id BIGINT NOT NULL,
     title VARCHAR(100) NOT NULL,
     url VARCHAR(500) NOT NULL,
-    -- 'sort_order' est utile pour permettre à l'utilisateur de réorganiser ses liens
-    sort_order INT DEFAULT 0,
+    sort_order INT DEFAULT 0, -- useful to allow the user to reorder his links
     
     CONSTRAINT fk_profile
         FOREIGN KEY(profile_id) 
